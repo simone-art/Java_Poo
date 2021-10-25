@@ -9,4 +9,5 @@ public class Livro {
 	private double valor;
 	private int anoPublicacao;
 	private int numeroPaginas;
+	private String autor;
 }
