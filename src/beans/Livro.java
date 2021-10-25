@@ -4,8 +4,8 @@ public class Livro {
 	
 	//Especificar os atributos
     //<modificadores> <dataType> <Atributos>
-	private String titulo;
-	private String editora;
+	public String titulo;
+	public String editora;
 	private double valor;
 	private int anoPublicacao;
 	private int numeroPaginas;
