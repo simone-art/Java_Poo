@@ -10,14 +10,14 @@ public class ImplementarAgendaRevisao {
 	public static void main(String[] args) throws ParseException {
 		
 		//Formatando a data no Java
-		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy hh:mm");
 		
 		//Reservando espaço para salvar o objeto(instanciar)
 		//O espaço reservado é para a agenda
 		AgendaRevisao agenda = new AgendaRevisao();
 		
 		//Atributos
-		agenda.data = format.parse("27/10/2021");
+		agenda.data = format.parse("27/10/2021 10:30");
 		agenda.nomeCliente = "Simone Santos";
 		agenda.contatoCliente = "7888-33-24";
 		//agenda.horaAgendamento = "13:30";
