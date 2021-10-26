@@ -1,13 +1,29 @@
 package beans;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 
 public class AgendaRevisao {
 	
 	public Date data;
+	public Date horaAgendamento;
 	public String nomeCliente;
 	public String contatoCliente;
-	public LocalDateTime horaAgendamento;
+	public String veiculo;
+	public String modelo;
+	
+	//Operações == métodos--- somente assinatura
+	
+	public void agendarRevisao() {
+		System.out.println("Agendando...!");
+	}
+	
+	public void reagendarRevisao() {
+		
+	}
+	
+	public void cancelarRevisao() {
+		
+	}
+
 
 }
