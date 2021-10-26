@@ -14,6 +14,7 @@ public class ImplementarLivro {
 		exemplar1.titulo = "Programacao Java";
 		exemplar1.editora = "Probeo Atlas editora";
 		
+		
 		System.out.println("Exemplar1:" + exemplar1.titulo );
 		System.out.println("Editora:" + exemplar1.editora );
 		
