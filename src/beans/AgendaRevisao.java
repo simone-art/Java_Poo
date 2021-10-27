@@ -5,7 +5,7 @@ import java.util.Date;
 public class AgendaRevisao {
 	
 	public Date data;
-	public Date horaAgendamento;
+	public String horaAgendamento;
 	public String nomeCliente;
 	public String contatoCliente;
 	public String veiculo;
